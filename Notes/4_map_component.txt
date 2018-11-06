@@ -1,0 +1,54 @@
+Navigate back to components directory
+Create file named Map.js in components directory and edit as follows:
+	import React, { Component } from "react";
+
+	export class Map extends React.Component {
+	  showSettings(event) {
+		event.preventDefault();
+	  }
+
+	  render() {
+		return (
+		  <React.Fragment>
+			<div
+			  id="map"
+			  style={{ width: "100%", height: "calc( 100vh - 52px)" }}
+			/>
+		  </React.Fragment>
+		);
+	  }
+	  componentDidMount() {
+		let map = new ol.Map({
+		  layers: [
+			new ol.layer.Tile({
+			  source: new ol.source.OSM()
+			})
+		  ],
+		  target: "map",
+		  view: new ol.View({
+			center: [0, 0],
+			projection: "EPSG:3857",
+			zoom: 4
+		  })
+		});
+	  }
+	}
+
+Up one directory, edit index.js add the following:
+	
+	export { Map } from "./components/Map";
+	
+Back in the docs directory edit App.js as follows:
+	import { Navigation, SideSlider, Map } from "react_demo";	
+	
+	replace current html with:
+	<React.Fragment>
+    <Navigation />
+    <SideSlider />
+	<Map />
+  </React.Fragment>
+  
+in index.html add the following:  
+  
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/3.13.0/ol.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/3.13.0/ol.js" type="text/javascript"></script>
