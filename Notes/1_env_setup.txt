@@ -4,7 +4,7 @@ Run setup commands in terminal window
 	yarn init
 	yarn add babel-cli babel-core babel-loader@7 raw-loader babel-preset-es2015 babel-preset-stage-2 babel-preset-react webpack webpack-dev-server html-webpack-plugin webpack-cli --dev
 	yarn add react react-dom 
-	yarn add jquery popper.js bootstrap
+	yarn add jquery popper.js react-bootstrap
 
 Edit package.json add the following
 	"files": ["dist"],
