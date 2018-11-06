@@ -40,4 +40,9 @@ Back in the docs directory edit App.js as follows:
     <Navigation />
     <SideSlider />
   </React.Fragment>
+  
+in index.html add the following:  
+  
+	<link rel="stylesheet" href="demo.css" />  
+	download https://github.com/billyz313/react_demo/blob/master/docs/demo.css to the docs directory
 	
