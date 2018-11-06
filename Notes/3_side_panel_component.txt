@@ -1,5 +1,7 @@
 Navigate back to components directory
 Create file named SideSlider.js in components directory and edit as follows:
+import React, { Component } from "react";
+import { slide as Menu } from "react-burger-menu";
 
 export class SideSlider extends React.Component {
   showSettings(event) {
