@@ -1,16 +1,16 @@
 Create a folder for the project
 	react_demo
 Run setup commands in terminal window 
-	yarn init –y
+	yarn init
 	yarn add babel-cli babel-core babel-loader@7 raw-loader babel-preset-es2015 babel-preset-stage-2 babel-preset-react webpack webpack-dev-server html-webpack-plugin webpack-cli --dev
 	yarn add react react-dom 
 	yarn add jquery popper.js bootstrap
 
 Edit package.json add the following
-	"files": ["dist"]
+	"files": ["dist"],
 	"scripts": {"start": "webpack-dev-server",
 		"docs": "NODE_ENV=production webpack –p",
-		"build": "babel src –d dist"
+		"build": "babel src –d dist",
 		"dist": "yarn run build"
 	}
 
@@ -83,7 +83,6 @@ Edit index.html with the following code:
 Create file named App.js
 Edit App.js with the following code:
 	import React, { Component } from "react";
-	import { Navigation, SideSlider, Map } from "react_demo";
 
 	const App = () => (
 	  <div>
