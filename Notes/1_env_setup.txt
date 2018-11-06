@@ -57,6 +57,7 @@ Create .babelrc add the following
 	}
 
 Create a folder named docs
+Copy .babelrc into docs folder so it is in both locations
 Create file named entry.js
 Edit entry.js with the following code:
 	import React from 'react'
