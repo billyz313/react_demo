@@ -26,3 +26,12 @@ edit index.html add the following to the head tag
 <link rel="stylesheet" href="demo.css" />
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/3.13.0/ol.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/3.13.0/ol.js" type="text/javascript"></script>
+
+Edit App.js in the src directory
+import { Navigation, SideSlider, Map } from "a_cool_demo_react";
+
+<React.Fragment>
+    <Navigation />
+    <SideSlider />
+    <Map />
+  </React.Fragment>

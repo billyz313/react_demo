@@ -10,7 +10,7 @@ Edit package.json add the following
 	"files": ["dist"],
 	"scripts": {"start": "webpack-dev-server",
 		"docs": "NODE_ENV=production webpack –p",
-		"build": "babel src –d dist",
+		"build": "babel src -d dist",
 		"clean": "",
 		"dist": "yarn run build"
 	}
