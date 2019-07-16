@@ -30,7 +30,7 @@
   integrity sha512-RpPOVfK+yatXyn8n4PB1NW6k9qjinrXrRR8ugBN8fD6hCy5RXI6PSbVqpOJBO9oSaY7Nom4ohj35feb0UR9hSA==
   dependencies:
     esutils "^2.0.2"
-    lodash "^4.17.10"
+    lodash "4.17.13"
     to-fast-properties "^2.0.0"
 
 "@emotion/is-prop-valid@^0.6.8":
