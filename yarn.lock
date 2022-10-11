@@ -4523,10 +4523,10 @@ react-bootstrap@^0.32.4:
     uncontrollable "^5.0.0"
     warning "^3.0.0"
 
-react-burger-menu@^2.5.4:
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/react-burger-menu/-/react-burger-menu-2.9.2.tgz#7eaa1c040b9543f1de6dd5f8fd237fbff0655f13"
-  integrity sha512-NOVV0Svjydlo8b/Twd/BQZ7WYr6T5rdVtxTsS7iESFCdQekaK8DIZt78D+qFS4eUjy8q/VQ2H3SLy/xir/NN8Q==
+react-burger-menu@^3.0.8:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/react-burger-menu/-/react-burger-menu-3.0.8.tgz#78744db0a576f981aeade4f3f8ee956bc094c107"
+  integrity sha512-pkPHOUKKd5ClLg5OERIZLXtnYCO2Vxvti+BBIIVLNiD2xjCdgfkSt4TZ2IPUQBkYUY/id7Mq56YDgQ16p4kZog==
   dependencies:
     browserify-optional "^1.0.0"
     classnames "^2.2.6"
