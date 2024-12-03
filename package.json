@@ -9,7 +9,7 @@
     "jquery": "^3.6.3",
     "popper.js": "^1.14.4",
     "react": "^18.2.0",
-    "react-bootstrap": "^0.32.4",
+    "react-bootstrap": "^2.7.2",
     "react-burger-menu": "^3.0.8",
     "react-dom": "^18.2.0",
     "styled-components": "^4.0.3"
